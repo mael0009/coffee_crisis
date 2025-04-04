@@ -1,5 +1,6 @@
 .daily_card {
   background-color: var(--article-background-color);
+  background-color: #905e25;
   display: grid;
   grid-template-columns: 3fr 5fr;
   gap: 10px;
@@ -14,7 +15,7 @@
   gap: 10px;
 }
 .daily_text h2 {
-  background-color: var(--headline-bg-color-inverted);
+  /* background-color: var(--headline-bg-color-inverted); */
   color: var(--headline-color-inverted);
   padding: calc(1.1rem / 1.5) 0 calc(1.1rem / 2) 1rem;
   margin: 0 0 0.5rem 0;
@@ -33,6 +34,7 @@
 }
 .news_card {
   background-color: var(--article-background-color);
+  background-color: #905e25;
   display: grid;
   grid-template-rows: repeat(min-content);
   gap: 0.4rem;
@@ -40,8 +42,10 @@
   /* border: 1px solid var(--border-color); */
   height: minmax(300px, min-content);
 }
+
 .news_card:nth-child(2n) {
   background-color: var(--news-background-color-inverted);
+  background-color: black;
 }
 .news_card > * {
   padding: 0 1rem;
@@ -55,14 +59,17 @@
 .news_card:first-child:before {
   content: "BREAKING NEWS";
   background-color: var(--headline-bg-color-inverted);
+  background-color: #901a1c;
   color: var(--headline-color-inverted);
   font-family: var(--headline-font);
   font-size: var(--headline3-size);
   text-align: center;
   line-height: 1rem;
   padding: calc(1.1rem / 1.5) 0 calc(1.1rem / 2) 0;
+  color: red;
   /* margin: 0 0 1rem 0; */
 }
+
 .news_card:first-child {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
