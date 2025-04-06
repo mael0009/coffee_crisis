@@ -12,6 +12,7 @@ main {
 }
 main > *:not(:first-child) {
   margin: 0 1rem;
+  background-color: #905e25;
 }
 main {
   grid-template-rows: min-content min-content 1fr min-content;
@@ -56,6 +57,7 @@ footer ul {
 #breaking {
   grid-template-rows: repeat(auto-fit, minmax(50px, min-content));
   gap: 0;
+  margin-top: 1rem;
 }
 
 @media (width > 600px) {
@@ -75,6 +77,7 @@ footer ul {
 
   h1 {
     grid-column: 1 / -1;
+    color: red;
   }
   footer {
     grid-template-columns: 1fr 1fr 1fr;
