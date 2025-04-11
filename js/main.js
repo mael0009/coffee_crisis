@@ -62,12 +62,37 @@ document.querySelector("#bottomcircle").addEventListener("click", function() {
 });
 
 
-
 function hideSideMessages() {
     document.querySelector("#sideMessage").style.display = "none";
     document.querySelector("#sidemessage").style.display = "none";
     document.querySelector("#side-message").style.display = "none";
 }
+
+
+///// NEWS //////
+// document.querySelector("#cta_btn1").addEventListener("click", openDialog1);
+// function openDialog1() {
+//   document.querySelector("#cta_btn1").showModal();
+// }
+
+// const closeBtn=document.querySelector("#closeBtn");closeBtn.addEventListener("click", closeDialog1);
+// functioncloseDialog() {
+// document.querySelector("#cta_btn1").close();
+// }
+
+
+
+/// DIALOG ////
+// const openBtn = document.querySelector(".news_card .read-more");
+ 
+
+// function openDialog(){
+//     dialog.showModal();
+// }
+
+// function closeDialog(){
+//     dialog.close();
+// }
 
 //////////
 

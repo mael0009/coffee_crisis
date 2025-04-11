@@ -32,6 +32,13 @@
   height: 100%;
   object-fit: cover;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .news_card {
   background-color: var(--article-background-color);
   background-color: #905e25;
@@ -44,12 +51,24 @@
 }
 
 .news_card:nth-child(2n) {
-  background-color: var(--news-background-color-inverted);
-  background-color: black;
+  /* background-color: var(--news-background-color-inverted); */
 }
 .news_card > * {
   padding: 0 1rem;
+  width: 50%;
 }
+
+/* #dialog1::backdrop {
+  background-image: url(../img/SVG/tired\ parents.svg);
+  background-size: cover;
+  filter: blur(15px) sepia(0.9);
+} */
+
+/* #dialog1 {
+  animation: fadeIn 1s ease-in;
+  backdrop-filter: blur(5px);
+} */
+
 .news_card h3 {
   margin: 0.5rem 0 0 0;
 }
