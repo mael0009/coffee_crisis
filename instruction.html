@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link id="Lightmode" rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
+
     <title>Emergency Site</title>
   </head>
   <body id="instruction">
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"> LOGOTYPE </a>
+          <a href="index.html"><img src="img/SVG/Asset 4.svg" alt="logo" /></a>
         </div>
         <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">LAV OM</a></li>
-          <li><a class="menuItem" href="register.html">Konsultation </a></li>
+          <li><a class="menuItem" href="instruction.html">SURVIVAL GUIDE</a></li>
+          <li><a class="menuItem" href="register.html">CONSULTATION </a></li>
+          <legend id="switchtext3">Dark mode</legend>
+          <label class="switch">
+            <input id="switchBtn3" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
         </ul>
       </nav>
     </header>
@@ -347,9 +353,9 @@
         </svg>
       </section>
       <section class="info-text">
-        <h2>Overskrift</h2>
+        <h2>HOW TO SURVIVE</h2>
         <article>
-          <p class="placeholder">INFO-TEKST</p>
+          <p class="placeholder">PARENTS LISTEN UP</p>
         </article>
         <!-- <aside id="efficiency" class="info-box yellow">INFO-BOX</aside>
         <aside id="requirement" class="info-box green">INFO-BOX</aside> -->
@@ -415,5 +421,6 @@
       </nav>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 </html>
