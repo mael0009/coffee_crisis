@@ -4,85 +4,98 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link id="Lightmode" rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
     <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
+    <!-- <link rel="stylesheet" href="css/custom_dark.css" /> -->
     <title>Emergency Site</title>
   </head>
   <body id="register">
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"> LOGOTYPE </a>
+          <a href="index.html"><img src="img/SVG/Asset 4.svg" alt="logo" /></a>
         </div>
         <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">LAV OM</a></li>
-          <li><a class="menuItem" href="register.html">Konsultation </a></li>
+          <li><a class="menuItem" href="instruction.html">SURVIVAL GUIDE</a></li>
+          <li><a class="menuItem" href="register.html">CONSULTATION </a></li>
+          <legend id="switchtext3">Dark mode</legend>
+          <label class="switch">
+            <input id="switchBtn3" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
         </ul>
       </nav>
     </header>
 
     <main>
-      <h1>KONSULTATION</h1>
+      <h1>CONSULTATION</h1>
       <section id="form-section">
         <article id="form-info">
           <h2>Overskrift</h2>
           <p>Tekst</p>
         </article>
-        <form id="webform"></form>
-        <form>
+
+        <form id="webform">
           <div class="form-group-flex">
             <div class="form-group">
-              <label for="Name">Fornavn og efternavn</label>
+              <label for="Name">Name and surname</label>
               <input id="name" type="text" />
             </div>
             <div class="form-group">
-              <label for="email">E-mail adresse</label>
+              <label for="email">E-mail adress</label>
               <input id="email" type="email" />
             </div>
           </div>
           <div>
             <div class="form-group">
-              <label for="kids">Antal børn</label>
+              <label for="kids">Number of kids</label>
               <input id="Kids" type="text" />
             </div>
             <div class="form-group">
-              <label for="kaffe">Hvad er dit normale koffeinindtag</label>
+              <label for="kaffe">What is your usual caffeine intake?</label>
               <input id="kaffe" type="text" />
             </div>
             <div class="form-group">
-              <label for="situation">Beskriv din nuværende situation</label>
-              <input id="situation" type="text" />
+              <label for="situation">Describe your current state</label>
+              <textarea id="situation" type="text"></textarea>
             </div>
           </div>
-        
-            <div class="form-group">
-              <label for="konsultation">Fotrukken tid til konsultation</label>
-              <!-- <input id="konsultation" type="text" /> -->
+
+          <div class="form-group">
+            <label>What is your preferred time for consultation</label>
+            <div>
+              <input type="radio" id="akut" name="consultation1" />
+              <label for="akut">Acute</label>
             </div>
-            <div class="form-group-radio">
+            <div>
+              <input type="radio" id="venteliste" name="consultation1" />
+              <label for="akut">Waitling list</label>
+            </div>
+          </div>
+
+          <!-- <div class="form-group-radio">
             <div class="form-group">
-              <label for="konsultation">Akut</label>
+              <label for="consultation">Acute</label>
               <input id="akut" type="radio" />
             </div>
             <div class="form-group">
-              <label for="konsultation">Venteliste</label>
+              <label for="konsultation">Waiting list</label>
               <input id="venteliste" type="radio" />
             </div>
-          </div>
-          </div>
+          </div> -->
 
-          <button>Send</button>
+          <button id="formsubmit">Send</button>
         </form>
+        <!-- <input id="konsultation" type="text" /> -->
+        <!-- <input type="radio" id="akut">  -->
       </section>
       <section id="form-summary">
         <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
-        </article>
+        <article></article>
       </section>
     </main>
     <footer>
@@ -111,5 +124,7 @@
         </ul>
       </nav>
     </footer>
+    <script src="js/reg.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 </html>

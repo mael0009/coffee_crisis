@@ -4,72 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link id="Lightmode" rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/burger.css" />
+    <!-- <link rel="stylesheet" href="css/burger.css" /> -->
     <link rel="stylesheet" href="css/cards.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
+
     <title>Emergency Site</title>
   </head>
   <body id="frontpage">
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"> LOGOTYPE </a>
+          <a href="index.html"><img src="img/SVG/Asset 4.svg" alt="logo" /></a>
         </div>
         <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">LAV OM </a></li>
-          <li><a class="menuItem" href="register.html">Konsultation</a></li>
+          <li><a class="menuItem" href="instruction.html">SURVIVAL GUIDE </a></li>
+          <li><a class="menuItem" href="register.html">CONSULTATION</a></li>
+          <legend id="switchtext3">Dark mode</legend>
+          <label class="switch">
+            <input id="switchBtn3" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
         </ul>
       </nav>
     </header>
     <section id="main-disclamer">
       <div id="main-disclamer-content">
-        <img src="warning" alt="ICON" />
+        <!-- <img src="warning" alt="ICON" /> -->
         <div>
-          <h1>Overskrift</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <h1>DOES COFFEE RULE THE WORLD?</h1>
+          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
         </div>
       </div>
     </section>
     <main>
       <section id="daily">
         <article class="daily_card">
-          <img src="" alt="teaser_img" />
+          <img src="img/SVG/sick woman.png" alt="teaser_img1" />
           <div class="daily_text">
-            <h2>Teaser</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magnam ducimus ea, sed minima asperiores.</p>
-            <a href="" class="cta_btn">Se mere</a>
+            <h2>Woman collapsing after having caffeine withdrawl</h2>
+            <p>Sudden crash after quitting coffee cold turkey.</p>
+            <a href="" class="cta_btn">Read more</a>
           </div>
         </article>
         <article class="daily_card">
-          <img src="" alt="teaser_img" />
+          <img src="img/SVG/donation.png" alt="teaser_img2" />
           <div class="daily_text">
-            <h2>Teaser</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magnam ducimus ea, sed minima asperiores.</p>
-            <a href="" class="cta_btn">Se mere</a>
+            <h2>Coffee shops asking for donations after going bankrupt in 1 week</h2>
+            <p>Desperate pleas follow sudden caffeine crash in business.</p>
+            <a href="" class="cta_btn">Read more</a>
           </div>
         </article>
       </section>
+
+      <!-- BREAKING NEWS -->
+
       <section id="breaking">
+        <!-- BREAKING NEWS 1 -->
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Increasing Rate of Sick Days at Work Since the Start of the Coffee Crisis</h3>
+          <!-- <p>Lorem ipsum dolor sit, sed minima asperiores.</p> -->
+          <img src="img/SVG/tired parents.svg" alt="news_img1" />
+
+          <dialog id="dialog1">
+            <img src="img/SVG/tired parents.svg" alt="parents" />
+            <p>
+              In recent months, workplaces across the globe have reported a noticeable uptick in employee sick days—an unexpected consequence that experts are now linking to the ongoing coffee crisis. Once considered a minor inconvenience, the
+              shortage of coffee beans and subsequent rise in prices have begun to show a surprising impact on workplace productivity and employee well-being. The so-called “coffee crisis” began as supply chains were disrupted by extreme weather
+              conditions in key coffee-producing regions such as Brazil and Vietnam. Combined with logistical issues and rising global demand, the result has been a sharp increase in prices and a noticeable dip in availability—especially of quality,
+              affordable coffee. While it may sound far-fetched, researchers and HR professionals are pointing to a potential connection between the reduced coffee intake and an increase in reported illnesses or unplanned absences. “Caffeine has long
+              been a part of many workers’ daily routines—not just as a stimulant but as a ritual that helps signal the start of the workday,” said Dr. Lena Ortiz, a behavioral psychologist at the Workplace Wellness Institute. “When that routine is
+              disrupted, we’re seeing signs of fatigue, irritability, and even increased stress levels, which can contribute to both mental and physical health issues.” Some companies have already begun to take notice. A recent internal report from a
+              major tech firm revealed that sick leave requests have increased by nearly 15% since January, coinciding with the period when office coffee supplies dwindled and costs rose. While it's difficult to draw a direct causal link, employee
+              feedback surveys frequently cite “lack of caffeine” and “low energy” as common complaints. The crisis has also sparked creative responses from employers. Some have started offering alternative energy-boosting options such as matcha,
+              herbal teas, or even short in-office meditation breaks. Others have invested in better wellness programs to support employees navigating a coffee-light workday. Though the idea of coffee affecting public health may once have seemed
+              laughable, the ripple effect of its absence is now very real for many modern workplaces. Whether the trend of rising sick days continues will likely depend on how long the coffee crisis lasts—and how well employers and employees adapt
+              to a caffeine-reduced world.
+            </p>
+            <form method="dialog">
+              <button>LUK</button>
+            </form>
+          </dialog>
+          <button id="cta_btn1" class="cta_btn1">READ MORE</button>
         </article>
+
+        <!-- BREAKING NEWS 2 -->
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Many children left waiting at schools and daycare since the coffee crisis began</h3>
+          <!-- <p>Lorem ipsum dolor sit, sed minima asperiores.</p> -->
+          <img src="img/SVG/daycare.svg" alt="news_img2" />
+          <a class="cta_btn" href="">READ MORE</a>
         </article>
+
+        <!-- BREAKING NEWS 3 -->
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Caffeine pills flying off supermarket shelves — nothing like this seen before</h3>
+          <!-- <p>Lorem ipsum dolor sit, sed minima asperiores.</p> -->
+          <img src="img/SVG/koffein-piller.svg" alt="news_img3" />
+          <a class="cta_btn" href="">READ MORE</a>
         </article>
       </section>
     </main>
@@ -100,6 +134,7 @@
         </ul>
       </nav>
     </footer>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/front.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 </html>

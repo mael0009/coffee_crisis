@@ -1,7 +1,7 @@
 :root {
   /* Colours */
-  --primary-bg-color: #901a1c; /* used */
-  --primary-font-color: #474d52; /* used */
+  --primary-bg-color: #2a2424; /* used */
+  --primary-font-color: #000000; /* used */
 
   --secondary-bg-color: #5d656c; /* used */
   --secondary-font-color: #d5e5f4; /* used */
@@ -16,13 +16,13 @@
   --danger-color: #dc3545;
 
   /* Borders */
-  --border-color: #007bff; /* used */
+  /* --border-color: #007bff; used   */
   --border-color-light: #f7f5c2; /* used */
   --border-radius: 37px;
 
   /* Links */
-  --link-color: #ffffff; /* used */
-  --hover-color: #0b97f5; /* used */
+  --link-color: #ff0000; /* used */
+  --hover-color: #f5460b; /* used */
   --active-color: #f52727; /* used */
 
   /* From styletile */
@@ -58,8 +58,8 @@
   --form-submit-color-inverted: #bbc3ca;
 
   /* Background colors */
-  --logotype-background-color: #905e25;
-  --header-background-color: #905e25;
+  --logotype-background-color: #3e280e;
+  --header-background-color: #3e280e;
   --article-background-color: #dbdde3;
   --news-background-color: #dbdde3;
   --news-background-color-inverted: #eeebe9;
@@ -67,7 +67,7 @@
   --headline-bg-color: #dbdde3;
   --headline-bg-color-alert: #dbdde3;
   --headline-bg-color-inverted: #dbdde3;
-  --bodytext-bg-color: #dbdde3;
+  --bodytext-bg-color: #e3e2db;
   --bodytext-bg-color-inverted: #dbdde3;
   --cta-text-bg-color: #dbdde3;
   --cta-text-bg-color-inverted: #dbdde3;
@@ -87,9 +87,9 @@
 
 /* DARK LIGHT */
 :root {
-  --background-color: #ffffff;
-  --text-color: #000000;
-  --link-color: #000000;
-  --link-hover-color: #d14836;
-  --border-color: #da2929;
+  --background-color: #171515;
+  --text-color: #ffffff;
+  --link-color: #ff0000;
+  --link-hover-color: #040403;
+  /* --border-color: #892a2a; */
 }

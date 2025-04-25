@@ -15,9 +15,11 @@ function headUnHighlight (){
 
 
 document.querySelector("#topcircle").addEventListener("click", function() {
+    hideSideMessages();
     document.querySelector("#sideMessage").style.display = "block";
 
 });
+
 
 
 ////////// knap 2//
@@ -35,6 +37,7 @@ function headUnHighlight2 (){
 
 
 document.querySelector("#midcircle").addEventListener("click", function() {
+    hideSideMessages();
     document.querySelector("#sidemessage").style.display = "block";
 });
 
@@ -54,8 +57,42 @@ function headUnHighlight3 (){
 
 
 document.querySelector("#bottomcircle").addEventListener("click", function() {
+    hideSideMessages();
     document.querySelector("#side-message").style.display = "block";
 });
+
+
+function hideSideMessages() {
+    document.querySelector("#sideMessage").style.display = "none";
+    document.querySelector("#sidemessage").style.display = "none";
+    document.querySelector("#side-message").style.display = "none";
+}
+
+
+///// NEWS //////
+// document.querySelector("#cta_btn1").addEventListener("click", openDialog1);
+// function openDialog1() {
+//   document.querySelector("#cta_btn1").showModal();
+// }
+
+// const closeBtn=document.querySelector("#closeBtn");closeBtn.addEventListener("click", closeDialog1);
+// functioncloseDialog() {
+// document.querySelector("#cta_btn1").close();
+// }
+
+
+
+/// DIALOG ////
+// const openBtn = document.querySelector(".news_card .read-more");
+ 
+
+// function openDialog(){
+//     dialog.showModal();
+// }
+
+// function closeDialog(){
+//     dialog.close();
+// }
 
 //////////
 
@@ -99,4 +136,4 @@ document.querySelector("#bottomcircle").addEventListener("click", function() {
 // function reset(){
 // document.querySelector("#webform").reset();
 // document.querySelector("#sum").style.display = "none";
-}
+// }
