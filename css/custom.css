@@ -89,7 +89,7 @@
 :root {
   --background-color: #ffffff;
   --text-color: #000000;
-  --link-color: #1a0dab;
+  --link-color: #000000;
   --link-hover-color: #d14836;
-  --border-color: #e0e0e0;
+  --border-color: #da2929;
 }

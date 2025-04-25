@@ -16,16 +16,18 @@ body {
   color: var(--primary-font-color);
   background-color: var(--primary-bg-color);
 }
+
 header,
 footer {
   background-color: var(--header-background-color);
   color: var(--secondary-font-color);
   height: min-content;
 }
-.logo-wrapper {
+.logo- wrapper {
   background-color: var(--logotype-background-color);
   color: var(--logotype-color);
 }
+
 #main-disclamer {
   height: 180px;
   background-color: var(--header-background-color);
@@ -35,11 +37,14 @@ footer {
   justify-content: flex-start;
   align-items: center;
   padding-left: 2rem;
+  border-radius: 1rem;
 }
+
 #main-disclamer-content {
   display: flex;
   column-gap: 1rem;
 }
+
 main section {
   padding: 20px;
   /* margin: 10px; */
@@ -54,6 +59,7 @@ h5,
 h6 {
   font-family: var(--headline-font);
 }
+
 h1 {
   font-size: var(--headline1-size);
   color: var(--headline-color-inverted);
@@ -61,16 +67,18 @@ h1 {
   line-height: 1rem;
   text-align: left;
 }
+
 h2 {
   font-size: var(--headline2-size);
 }
+
 h3 {
   font-size: var(--headline3-size);
 }
 
 main > h1 {
   background-color: var(--headline-bg-color-alert);
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: var(--headline-color-inverted);
   color: red;
   line-height: 4rem;
@@ -174,7 +182,7 @@ header > nav > ul > li > a:active {
   color: var(--link-hover-color);
 }
 header {
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   border-bottom: 1px solid var(--border-color);
 }
 footer {
@@ -194,7 +202,8 @@ h6,
 p,
 legend,
 label {
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: black;
 }
 a {
   color: var(--link-color);
@@ -245,7 +254,7 @@ a:active {
   width: 22px;
   left: 4px;
   bottom: 3px;
-  background-color: rgb(58, 150, 157);
+  background-color: rgb(255, 47, 0);
   transition: 0.4s;
   border-radius: 50%;
 }

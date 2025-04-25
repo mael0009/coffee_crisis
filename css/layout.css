@@ -81,5 +81,6 @@ footer ul {
   }
   footer {
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #905e25;
   }
 }
